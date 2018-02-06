@@ -18,7 +18,7 @@
  <DataSourceRepository>
   <DataObjects>
  
-<DataObject PhysicalName="System" Resident="N" UniqueISNConvState="12" data_source="MDMXPA" id="2" name="System">
+<DataObject PhysicalName="System" Resident="N" UniqueISNConvState="12" data_source="XPARepo" id="2" name="System">
 
   <Encrypt val="N"/>
 
@@ -102,7 +102,7 @@
   <WebS/>
 
 </DataObject> 
-<DataObject PhysicalName="User" Resident="N" UniqueISNConvState="12" data_source="MDMXPA" id="4" name="User">
+<DataObject PhysicalName="User" Resident="N" UniqueISNConvState="12" data_source="XPARepo" id="4" name="User">
 
   <Encrypt val="N"/>
 
@@ -264,7 +264,7 @@
   <WebS/>
 
 </DataObject> 
-<DataObject PhysicalName="Department" Resident="N" UniqueISNConvState="12" data_source="MDMXPA" id="5" name="Department">
+<DataObject PhysicalName="Department" Resident="N" UniqueISNConvState="12" data_source="XPARepo" id="5" name="Department">
 
   <Encrypt val="N"/>
 
@@ -345,7 +345,7 @@
   <WebS/>
 
 </DataObject> 
-<DataObject PhysicalName="Level" Resident="N" UniqueISNConvState="12" data_source="MDMXPA" id="6" name="Level">
+<DataObject PhysicalName="Level" Resident="N" UniqueISNConvState="12" data_source="XPARepo" id="6" name="Level">
 
   <Encrypt val="N"/>
 
@@ -429,7 +429,7 @@
   <WebS/>
 
 </DataObject> 
-<DataObject PhysicalName="Designation" Resident="N" UniqueISNConvState="12" data_source="MDMXPA" id="7" name="Designation">
+<DataObject PhysicalName="Designation" Resident="N" UniqueISNConvState="12" data_source="XPARepo" id="7" name="Designation">
 
   <Encrypt val="N"/>
 
@@ -522,7 +522,7 @@
   <WebS/>
 
 </DataObject> 
-<DataObject PhysicalName="Device" Resident="N" UniqueISNConvState="12" data_source="MDMXPA" id="8" name="Device">
+<DataObject PhysicalName="Device" Resident="N" UniqueISNConvState="12" data_source="XPARepo" id="8" name="Device">
 
   <Encrypt val="N"/>
 
@@ -622,7 +622,7 @@
   <WebS/>
 
 </DataObject> 
-<DataObject PhysicalName="Group" Resident="N" UniqueISNConvState="12" data_source="MDMXPA" id="9" name="Group">
+<DataObject PhysicalName="Group" Resident="N" UniqueISNConvState="12" data_source="XPARepo" id="9" name="Group">
 
   <Encrypt val="N"/>
 
@@ -694,7 +694,7 @@
   <WebS/>
 
 </DataObject> 
-<DataObject PhysicalName="Configuration" Resident="N" UniqueISNConvState="12" data_source="MDMXPA" id="10" name="Configuration">
+<DataObject PhysicalName="Configuration" Resident="N" UniqueISNConvState="12" data_source="XPARepo" id="10" name="Configuration">
 
   <Encrypt val="N"/>
 
@@ -766,7 +766,7 @@
   <WebS/>
 
 </DataObject> 
-<DataObject PhysicalName="Policy" Resident="N" UniqueISNConvState="12" data_source="MDMXPA" id="11" name="Policy">
+<DataObject PhysicalName="Policy" Resident="N" UniqueISNConvState="12" data_source="XPARepo" id="11" name="Policy">
 
   <Encrypt val="N"/>
 
@@ -838,7 +838,7 @@
   <WebS/>
 
 </DataObject> 
-<DataObject PhysicalName="Location" Resident="N" UniqueISNConvState="12" data_source="MDMXPA" id="14" name="Location">
+<DataObject PhysicalName="Location" Resident="N" UniqueISNConvState="12" data_source="XPARepo" id="14" name="Location">
 
   <Encrypt val="N"/>
 
@@ -935,7 +935,7 @@
   <WebS/>
 
 </DataObject> 
-<DataObject PhysicalName="State" Resident="N" UniqueISNConvState="12" data_source="MDMXPA" id="15" name="State">
+<DataObject PhysicalName="State" Resident="N" UniqueISNConvState="12" data_source="XPARepo" id="15" name="State">
 
   <Encrypt val="N"/>
 
@@ -1013,7 +1013,7 @@
   <WebS/>
 
 </DataObject> 
-<DataObject PhysicalName="Country" Resident="N" UniqueISNConvState="12" data_source="MDMXPA" id="16" name="Country">
+<DataObject PhysicalName="Country" Resident="N" UniqueISNConvState="12" data_source="XPARepo" id="16" name="Country">
 
   <Encrypt val="N"/>
 

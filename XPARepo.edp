@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <_Project>
+    <ProjectName val="XPAAssignmentMDM"/>
+    <VCProjectID val="0"/>
+    <VCActive val="Y"/>
+    <WorkOffline val="N"/>
+    <VCProjectName val="."/>
+    <SourceDirectory val="Source"/>
+    <ExportsDirectory val="Exports"/>
+    <GUID val="{DC3515B4-B2A1-440A-8B17-1BDC27A0813C}"/>
+    <Version min="13021"/>
+    <SourceVersion val="13021.00"/>
+    <ReferencedProjects>
+      <RefProject FileName="XPAAssignmentMDM\XPAAssignmentMDM.edp" ProjectName="XPAAssignmentMDM"/>
+    </ReferencedProjects>
+  </_Project>
+
+</Application>

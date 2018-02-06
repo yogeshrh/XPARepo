@@ -1,0 +1,34 @@
+ <Application>
+ 
+<Header>
+
+  <Version val="13021"/>
+
+  <WithIsn val="Y"/>
+
+  <Exe comp="-1"/>
+
+  <LastIsn val="16"/>
+
+  <LastIsnFolder val="0"/>
+
+  <Folders/>
+
+</Header>
+ <DataSourceRepository>
+  <DataObjects>
+ 
+<DataObject PhysicalName="System" Resident="N" UniqueISNConvState="12" data_source="MDMXPA" id="2" name="System" offset="211" length="2787"/> 
+<DataObject PhysicalName="User" Resident="N" UniqueISNConvState="12" data_source="MDMXPA" id="4" name="User" offset="2999" length="6173"/> 
+<DataObject PhysicalName="Department" Resident="N" UniqueISNConvState="12" data_source="MDMXPA" id="5" name="Department" offset="9173" length="2179"/> 
+<DataObject PhysicalName="Level" Resident="N" UniqueISNConvState="12" data_source="MDMXPA" id="6" name="Level" offset="11353" length="2764"/> 
+<DataObject PhysicalName="Designation" Resident="N" UniqueISNConvState="12" data_source="MDMXPA" id="7" name="Designation" offset="14118" length="2721"/> 
+<DataObject PhysicalName="Device" Resident="N" UniqueISNConvState="12" data_source="MDMXPA" id="8" name="Device" offset="16840" length="3433"/> 
+<DataObject PhysicalName="Group" Resident="N" UniqueISNConvState="12" data_source="MDMXPA" id="9" name="Group" offset="20274" length="2212"/> 
+<DataObject PhysicalName="Configuration" Resident="N" UniqueISNConvState="12" data_source="MDMXPA" id="10" name="Configuration" offset="22487" length="2229"/> 
+<DataObject PhysicalName="Policy" Resident="N" UniqueISNConvState="12" data_source="MDMXPA" id="11" name="Policy" offset="24717" length="2215"/> 
+<DataObject PhysicalName="Location" Resident="N" UniqueISNConvState="12" data_source="MDMXPA" id="14" name="Location" offset="26933" length="2856"/> 
+<DataObject PhysicalName="State" Resident="N" UniqueISNConvState="12" data_source="MDMXPA" id="15" name="State" offset="29790" length="2384"/> 
+<DataObject PhysicalName="Country" Resident="N" UniqueISNConvState="12" data_source="MDMXPA" id="16" name="Country" offset="32175" length="1739"/>  </DataObjects>
+ </DataSourceRepository>
+ <LastModified val="30643439203491679"/>  </Application>

@@ -27,7 +27,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736731" _time="66594" date="06/02/2018" time="18:29:54"/>
+          <LastModified _date="736732" _time="59766" date="07/02/2018" time="16:36:06"/>
         </Header>
         <ItemIsn val="133"/>
         <Resource>
@@ -261,7 +261,6 @@
         </Resource>
         <Information>
           <Key>
-            <Column val="5"/>
             <Mode val="N"/>
           </Key>
           <DB comp="-1" obj="4"/>
@@ -1640,7 +1639,6 @@
               <LogicLine>
                 <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="103" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TXT="First Called..." TitleTxt="Warning" VR_DISP="B">
                   <AppendToErrorLog val="N"/>
-                  <Disabled val="1"/>
                   <Condition val="Y"/>
                   <Modifier val="B"/>
                   <Direction val="C"/>
@@ -1677,7 +1675,6 @@
               <LogicLine>
                 <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="102" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TXT="Last Called..." TitleTxt="Warning" VR_DISP="B">
                   <AppendToErrorLog val="N"/>
-                  <Disabled val="1"/>
                   <Condition val="Y"/>
                   <Modifier val="B"/>
                   <Direction val="C"/>
@@ -1714,7 +1711,6 @@
               <LogicLine>
                 <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="101" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TXT="Next Called..." TitleTxt="Warning" VR_DISP="B">
                   <AppendToErrorLog val="N"/>
-                  <Disabled val="1"/>
                   <Condition val="Y"/>
                   <Modifier val="B"/>
                   <Direction val="C"/>
@@ -1751,7 +1747,6 @@
               <LogicLine>
                 <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="104" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TXT="Prev Called..." TitleTxt="Warning" VR_DISP="B">
                   <AppendToErrorLog val="N"/>
-                  <Disabled val="1"/>
                   <Condition val="Y"/>
                   <Modifier val="B"/>
                   <Direction val="C"/>
@@ -2284,7 +2279,7 @@
             <ExpAttribute val="A"/>
           </Expression>
           <Expression id="39">
-            <ExpSyntax val="'Modify the selected record?' &amp;Str({0,117},'5')"/>
+            <ExpSyntax val="'Modify selected record?' &amp;Str({0,117},'5')"/>
             <ExpAttribute val="A"/>
           </Expression>
           <Expression id="40">
@@ -2612,7 +2607,6 @@
           </Resource>
           <Information>
             <Key>
-              <Column val="5"/>
               <Mode val="N"/>
             </Key>
             <DB comp="-1" obj="4"/>
@@ -4025,7 +4019,6 @@
           </Resource>
           <Information>
             <Key>
-              <Column val="5"/>
               <Mode val="N"/>
             </Key>
             <DB comp="-1" obj="4"/>
@@ -4465,7 +4458,6 @@
           </Resource>
           <Information>
             <Key>
-              <Column val="5"/>
               <Mode val="N"/>
             </Key>
             <DB comp="-1" obj="4"/>

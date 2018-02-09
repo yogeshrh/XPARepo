@@ -27,7 +27,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736732" _time="59766" date="07/02/2018" time="16:36:06"/>
+          <LastModified _date="736734" _time="51627" date="09/02/2018" time="14:20:27"/>
         </Header>
         <ItemIsn val="133"/>
         <Resource>
@@ -1134,7 +1134,7 @@
             <Expanded val="1"/>
             <LogicLines>
               <LogicLine>
-                <STP Buttons="N" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="241" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TXT="Create new user?" TitleTxt="Warning" VR_DISP="B">
+                <STP Buttons="N" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="241" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TXT="Do you want to create new user?" TitleTxt="Warning" VR_DISP="B">
                   <AppendToErrorLog val="N"/>
                   <RetValVar val="128"/>
                   <Condition val="Y"/>
@@ -2279,7 +2279,7 @@
             <ExpAttribute val="A"/>
           </Expression>
           <Expression id="39">
-            <ExpSyntax val="'Modify selected record?' &amp;Str({0,117},'5')"/>
+            <ExpSyntax val="'Modify the selected record?' &amp;Str({0,117},'5')"/>
             <ExpAttribute val="A"/>
           </Expression>
           <Expression id="40">

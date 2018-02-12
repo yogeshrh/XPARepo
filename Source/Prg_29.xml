@@ -27,7 +27,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736737" _time="41394" date="12/02/2018" time="11:29:54"/>
+          <LastModified _date="736737" _time="67251" date="12/02/2018" time="18:40:51"/>
         </Header>
         <ItemIsn val="133"/>
         <Resource>
@@ -1134,7 +1134,7 @@
             <Expanded val="1"/>
             <LogicLines>
               <LogicLine>
-                <STP Buttons="N" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="241" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TXT="Create new user?" TitleTxt="Warning" VR_DISP="B">
+                <STP Buttons="N" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="241" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TXT="YRH1.2: Create new user?" TitleTxt="Warning" VR_DISP="B">
                   <AppendToErrorLog val="N"/>
                   <RetValVar val="128"/>
                   <Condition val="Y"/>
@@ -1535,7 +1535,7 @@
                 </RaiseEvent>
               </LogicLine>
               <LogicLine>
-                <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="143" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TXT="Delete Successful!" TitleTxt="Warning" VR_DISP="B">
+                <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="143" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TXT="YRH1.2: Delete Successful!" TitleTxt="Warning" VR_DISP="B">
                   <AppendToErrorLog val="N"/>
                   <Condition val="Y"/>
                   <Modifier val="B"/>
@@ -1550,7 +1550,7 @@
                 </BLOCK>
               </LogicLine>
               <LogicLine>
-                <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="161" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TXT="Delete Not Selected!!" TitleTxt="Warning" VR_DISP="B">
+                <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="161" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TXT="YRH1.2: Delete Not Selected!!" TitleTxt="Warning" VR_DISP="B">
                   <AppendToErrorLog val="N"/>
                   <Condition val="Y"/>
                   <Modifier val="B"/>
@@ -1587,7 +1587,7 @@
             <Expanded val="1"/>
             <LogicLines>
               <LogicLine>
-                <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="118" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TXT="Are you sure you want to EXIT?" TitleTxt="Warning" VR_DISP="B">
+                <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="118" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TXT="YRH1.2: Are you sure you want to EXIT?" TitleTxt="Warning" VR_DISP="B">
                   <AppendToErrorLog val="N"/>
                   <Condition val="Y"/>
                   <Modifier val="B"/>
@@ -1637,7 +1637,7 @@
             <Expanded val="1"/>
             <LogicLines>
               <LogicLine>
-                <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="103" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TXT="First Called..." TitleTxt="Warning" VR_DISP="B">
+                <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="103" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TXT="YRH1.2: First Called..." TitleTxt="Warning" VR_DISP="B">
                   <AppendToErrorLog val="N"/>
                   <Condition val="Y"/>
                   <Modifier val="B"/>
@@ -1673,7 +1673,7 @@
             <Expanded val="1"/>
             <LogicLines>
               <LogicLine>
-                <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="102" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TXT="Last Called..." TitleTxt="Warning" VR_DISP="B">
+                <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="102" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TXT="YRH1.2: Last Called..." TitleTxt="Warning" VR_DISP="B">
                   <AppendToErrorLog val="N"/>
                   <Condition val="Y"/>
                   <Modifier val="B"/>
@@ -1709,7 +1709,7 @@
             <Expanded val="1"/>
             <LogicLines>
               <LogicLine>
-                <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="101" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TXT="Next Called..." TitleTxt="Warning" VR_DISP="B">
+                <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="101" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TXT="YRH1.2: Next Called..." TitleTxt="Warning" VR_DISP="B">
                   <AppendToErrorLog val="N"/>
                   <Condition val="Y"/>
                   <Modifier val="B"/>
@@ -1745,7 +1745,7 @@
             <Expanded val="1"/>
             <LogicLines>
               <LogicLine>
-                <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="104" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TXT="Prev Called..." TitleTxt="Warning" VR_DISP="B">
+                <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="104" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TXT="YRH1.2: Prev Called..." TitleTxt="Warning" VR_DISP="B">
                   <AppendToErrorLog val="N"/>
                   <Condition val="Y"/>
                   <Modifier val="B"/>
@@ -1782,7 +1782,7 @@
             <Expanded val="1"/>
             <LogicLines>
               <LogicLine>
-                <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="2074" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TXT="Are you sure you want to EXIT ?" TitleTxt="Warning" VR_DISP="B">
+                <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="2074" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TXT="YRH1.2: Are you sure you want to EXIT ?" TitleTxt="Warning" VR_DISP="B">
                   <AppendToErrorLog val="N"/>
                   <Condition val="Y"/>
                   <Modifier val="B"/>
@@ -2255,7 +2255,7 @@
             <ExpAttribute val="A"/>
           </Expression>
           <Expression id="20">
-            <ExpSyntax val="'Confirm delete for '&amp;{0,88}"/>
+            <ExpSyntax val="'YRH1.2: Confirm delete for '&amp;{0,88}"/>
             <ExpAttribute val="A"/>
           </Expression>
           <Expression id="22">
@@ -2279,7 +2279,7 @@
             <ExpAttribute val="A"/>
           </Expression>
           <Expression id="39">
-            <ExpSyntax val="'Modify selected record?' &amp;Str({0,117},'5')"/>
+            <ExpSyntax val="'YRH1.2: Modify selected record?' &amp;Str({0,117},'5')"/>
             <ExpAttribute val="A"/>
           </Expression>
           <Expression id="40">
@@ -3041,7 +3041,7 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="736737" _time="41253" date="12/02/2018" time="11:27:33"/>
+            <LastModified _date="736737" _time="67251" date="12/02/2018" time="18:40:51"/>
           </Header>
           <ItemIsn val="17"/>
           <Resource>

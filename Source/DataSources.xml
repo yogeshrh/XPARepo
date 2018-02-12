@@ -313,7 +313,7 @@
         <_FieldPhysical Name="Name" PIC_U="20" Size="20" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
       </PropertyList>
     </Column>
-    <Column id="3" name="LvelPurpose">
+    <Column id="3" name="LevelPurpose">
       <PropertyList model="FIELD">
         <Model attr_obj="FIELD_ALPHA" id="1"/>
         <Picture id="157" valUnicode="20"/>

@@ -5457,3 +5457,10 @@
  <484150780936871104> 01/02/2018 18:09:35.574     [Error  ] - Initial Task mode not allowed, Program: "User Form.View User Details".
  <100731453828800384> 01/02/2018 18:10:24.848     [Error  ] - Initial Task mode not allowed, Program: "User Form.View User Details".
  <359732495899170176> 02/02/2018 17:25:29.459     [Error  ] - Constraint failure, data source: User, Program: "User Form.View User Details.Insert User Details".
+ <-1> 12/02/2018 17:01:50.837     [Error  ] - "Java Virtual Machine: Cannot be loaded (status: -1)"
+
+==============================================
+PID 16608	12/02/2018 17:01:58
+==============================================
+
+

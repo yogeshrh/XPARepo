@@ -18,6 +18,7 @@
  <DataSourceRepository>
   <DataObjects>
  
+ 
 <DataObject PhysicalName="User" Resident="N" UniqueISNConvState="12" data_source="XPARepo" id="4" name="User">
 
   <Encrypt val="N"/>
@@ -284,7 +285,7 @@
   <MetaTreeRTIndex val="-1"/>
 
   <Columns>
-    <Column id="1" name="ID">
+    <Column id="1" name="LevelID">
       <PropertyList model="FIELD">
         <Model attr_obj="FIELD_NUMERIC" id="1"/>
         <Picture id="157" valUnicode="5"/>
@@ -300,7 +301,7 @@
         <_FieldStyle id="276" val="1"/>
       </PropertyList>
     </Column>
-    <Column id="2" name="Name">
+    <Column id="2" name="LevelName">
       <PropertyList model="FIELD">
         <Model attr_obj="FIELD_ALPHA" id="1"/>
         <Picture id="157" valUnicode="20"/>
@@ -312,7 +313,7 @@
         <_FieldPhysical Name="Name" PIC_U="20" Size="20" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
       </PropertyList>
     </Column>
-    <Column id="3" name="Purpose">
+    <Column id="3" name="LvelPurpose">
       <PropertyList model="FIELD">
         <Model attr_obj="FIELD_ALPHA" id="1"/>
         <Picture id="157" valUnicode="20"/>
@@ -324,7 +325,7 @@
         <_FieldPhysical Name="Purpose" PIC_U="20" Size="20" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
       </PropertyList>
     </Column>
-    <Column id="4" name="Desc">
+    <Column id="4" name="LevelDesc">
       <PropertyList model="FIELD">
         <Model attr_obj="FIELD_ALPHA" id="1"/>
         <Picture id="157" valUnicode="100"/>

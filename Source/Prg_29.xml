@@ -27,7 +27,7 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="736732" _time="59766" date="07/02/2018" time="16:36:06"/>
+          <LastModified _date="736737" _time="41394" date="12/02/2018" time="11:29:54"/>
         </Header>
         <ItemIsn val="133"/>
         <Resource>
@@ -64,7 +64,7 @@
             <IdentifyRowModifications val="84"/>
           </DB>
           <Columns>
-            <Column id="37" name="vUID">
+            <Column id="37" name="virtualUID">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_NUMERIC" id="1"/>
                 <Picture id="157" valUnicode="5"/>
@@ -74,7 +74,7 @@
                 <_FieldStyle id="276" val="1"/>
               </PropertyList>
             </Column>
-            <Column id="30" name="vfName">
+            <Column id="30" name="virtualfName">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
                 <Picture id="157" valUnicode="20"/>
@@ -83,7 +83,7 @@
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
-            <Column id="31" name="vlName">
+            <Column id="31" name="virtuallName">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
                 <Picture id="157" valUnicode="20"/>
@@ -92,7 +92,7 @@
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
-            <Column id="32" name="vEmail">
+            <Column id="32" name="virtualEmail">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
                 <Picture id="157" valUnicode="20"/>
@@ -101,7 +101,7 @@
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
-            <Column id="33" name="vPhone">
+            <Column id="33" name="virtualPhone">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
                 <Picture id="157" valUnicode="20"/>
@@ -110,7 +110,7 @@
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
-            <Column id="34" name="vDeptID">
+            <Column id="34" name="virtualDeptID">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_NUMERIC" id="1"/>
                 <Picture id="157" valUnicode="5"/>
@@ -120,7 +120,7 @@
                 <_FieldStyle id="276" val="1"/>
               </PropertyList>
             </Column>
-            <Column id="35" name="vLocID">
+            <Column id="35" name="virtualLocID">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_NUMERIC" id="1"/>
                 <Picture id="157" valUnicode="5"/>
@@ -130,7 +130,7 @@
                 <_FieldStyle id="276" val="1"/>
               </PropertyList>
             </Column>
-            <Column id="36" name="vDesigID">
+            <Column id="36" name="virtualDesigID">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_NUMERIC" id="1"/>
                 <Picture id="157" valUnicode="5"/>
@@ -140,7 +140,7 @@
                 <_FieldStyle id="276" val="1"/>
               </PropertyList>
             </Column>
-            <Column id="15" name="Return vDepName">
+            <Column id="15" name="Return virtualDepName">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
                 <Picture id="157" valUnicode="20"/>
@@ -149,7 +149,7 @@
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
-            <Column id="16" name="Return vLocName">
+            <Column id="16" name="Return virtualLocName">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
                 <Picture id="157" valUnicode="20"/>
@@ -158,7 +158,7 @@
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
-            <Column id="17" name="Return vDesName">
+            <Column id="17" name="Return virtualDesName">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
                 <Picture id="157" valUnicode="20"/>
@@ -167,7 +167,7 @@
                 <_Flip id="194"/>
               </PropertyList>
             </Column>
-            <Column id="20" name="Return vDepID">
+            <Column id="20" name="Return virtualDepID">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_NUMERIC" id="1"/>
                 <Picture id="157" valUnicode="5"/>
@@ -177,7 +177,7 @@
                 <_FieldStyle id="276" val="1"/>
               </PropertyList>
             </Column>
-            <Column id="38" name="vModifyConfirm">
+            <Column id="38" name="virtualModifyConfirm">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_NUMERIC" id="1"/>
                 <Picture id="157" valUnicode="1"/>
@@ -187,7 +187,7 @@
                 <_FieldStyle id="276" val="1"/>
               </PropertyList>
             </Column>
-            <Column id="39" name="vNewConfirm">
+            <Column id="39" name="virtualNewConfirm">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_NUMERIC" id="1"/>
                 <Picture id="157" valUnicode="1"/>
@@ -197,7 +197,7 @@
                 <_FieldStyle id="276" val="1"/>
               </PropertyList>
             </Column>
-            <Column id="40" name="vDeleteConfirm">
+            <Column id="40" name="virtualDeleteConfirm">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_NUMERIC" id="1"/>
                 <Picture id="157" valUnicode="1"/>
@@ -207,19 +207,19 @@
                 <_FieldStyle id="276" val="1"/>
               </PropertyList>
             </Column>
-            <Column id="41" name="vMOD">
+            <Column id="41" name="virtualMOD">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_LOGICAL" id="1"/>
                 <_FieldStyle id="276" val="1"/>
               </PropertyList>
             </Column>
-            <Column id="42" name="vDEL">
+            <Column id="42" name="virtualDEL">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_LOGICAL" id="1"/>
                 <_FieldStyle id="276" val="1"/>
               </PropertyList>
             </Column>
-            <Column id="43" name="vNEW">
+            <Column id="43" name="virtualNEW">
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_LOGICAL" id="1"/>
                 <_FieldStyle id="276" val="1"/>
@@ -2514,7 +2514,7 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="736731" _time="66594" date="06/02/2018" time="18:29:54"/>
+            <LastModified _date="736737" _time="41300" date="12/02/2018" time="11:28:20"/>
           </Header>
           <ItemIsn val="25"/>
           <Resource>
@@ -2527,7 +2527,7 @@
               <IdentifyRowModifications val="84"/>
             </DB>
             <Columns>
-              <Column id="8" name="id">
+              <Column id="8" name="upId">
                 <PropertyList model="FIELD">
                   <Model attr_obj="FIELD_NUMERIC" id="1"/>
                   <Picture id="157" valUnicode="5"/>
@@ -2537,7 +2537,7 @@
                   <_FieldStyle id="276" val="1"/>
                 </PropertyList>
               </Column>
-              <Column id="1" name="fname">
+              <Column id="1" name="upFname">
                 <PropertyList model="FIELD">
                   <Model attr_obj="FIELD_ALPHA" id="1"/>
                   <Picture id="157" valUnicode="50"/>
@@ -2546,7 +2546,7 @@
                   <_Flip id="194"/>
                 </PropertyList>
               </Column>
-              <Column id="2" name="lname">
+              <Column id="2" name="upLname">
                 <PropertyList model="FIELD">
                   <Model attr_obj="FIELD_ALPHA" id="1"/>
                   <Picture id="157" valUnicode="50"/>
@@ -2555,7 +2555,7 @@
                   <_Flip id="194"/>
                 </PropertyList>
               </Column>
-              <Column id="3" name="phone">
+              <Column id="3" name="upPhone">
                 <PropertyList model="FIELD">
                   <Model attr_obj="FIELD_ALPHA" id="1"/>
                   <Picture id="157" valUnicode="20"/>
@@ -2564,7 +2564,7 @@
                   <_Flip id="194"/>
                 </PropertyList>
               </Column>
-              <Column id="4" name="email">
+              <Column id="4" name="upEmail">
                 <PropertyList model="FIELD">
                   <Model attr_obj="FIELD_ALPHA" id="1"/>
                   <Picture id="157" valUnicode="20"/>
@@ -2573,7 +2573,7 @@
                   <_Flip id="194"/>
                 </PropertyList>
               </Column>
-              <Column id="5" name="did">
+              <Column id="5" name="upDid">
                 <PropertyList model="FIELD">
                   <Model attr_obj="FIELD_NUMERIC" id="1"/>
                   <Picture id="157" valUnicode="5"/>
@@ -2583,7 +2583,7 @@
                   <_FieldStyle id="276" val="1"/>
                 </PropertyList>
               </Column>
-              <Column id="6" name="lid">
+              <Column id="6" name="upLid">
                 <PropertyList model="FIELD">
                   <Model attr_obj="FIELD_NUMERIC" id="1"/>
                   <Picture id="157" valUnicode="5"/>
@@ -2593,7 +2593,7 @@
                   <_FieldStyle id="276" val="1"/>
                 </PropertyList>
               </Column>
-              <Column id="7" name="dsid">
+              <Column id="7" name="upDsid">
                 <PropertyList model="FIELD">
                   <Model attr_obj="FIELD_NUMERIC" id="1"/>
                   <Picture id="157" valUnicode="5"/>
@@ -2963,9 +2963,8 @@
                   </Update>
                 </LogicLine>
                 <LogicLine>
-                  <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="17" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TXT="RS - Updated" TitleTxt="Warning" VR_DISP="B">
+                  <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" FlowIsn="17" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TXT="YRH1.2: RS - Updated" TitleTxt="Warning" VR_DISP="B">
                     <AppendToErrorLog val="N"/>
-                    <Disabled val="1"/>
                     <Condition val="Y"/>
                     <Modifier val="B"/>
                     <Direction val="C"/>
@@ -3042,12 +3041,12 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="736727" _time="61475" date="02/02/2018" time="17:04:35"/>
+            <LastModified _date="736737" _time="41253" date="12/02/2018" time="11:27:33"/>
           </Header>
           <ItemIsn val="17"/>
           <Resource>
             <Columns>
-              <Column id="1" name="uID">
+              <Column id="1" name="viewID">
                 <PropertyList model="FIELD">
                   <Model attr_obj="FIELD_NUMERIC" id="1"/>
                   <Picture id="157" valUnicode="5"/>
@@ -3057,7 +3056,7 @@
                   <_FieldStyle id="276" val="1"/>
                 </PropertyList>
               </Column>
-              <Column id="2" name="uFirstName">
+              <Column id="2" name="viewFirstName">
                 <PropertyList model="FIELD">
                   <Model attr_obj="FIELD_ALPHA" id="1"/>
                   <Picture id="157" valUnicode="20"/>
@@ -3066,7 +3065,7 @@
                   <_Flip id="194"/>
                 </PropertyList>
               </Column>
-              <Column id="3" name="uLastName">
+              <Column id="3" name="viewLastName">
                 <PropertyList model="FIELD">
                   <Model attr_obj="FIELD_ALPHA" id="1"/>
                   <Picture id="157" valUnicode="20"/>
@@ -3075,7 +3074,7 @@
                   <_Flip id="194"/>
                 </PropertyList>
               </Column>
-              <Column id="4" name="uPhone">
+              <Column id="4" name="viewPhone">
                 <PropertyList model="FIELD">
                   <Model attr_obj="FIELD_ALPHA" id="1"/>
                   <Picture id="157" valUnicode="20"/>
@@ -3084,7 +3083,7 @@
                   <_Flip id="194"/>
                 </PropertyList>
               </Column>
-              <Column id="5" name="uEmail">
+              <Column id="5" name="viewEmail">
                 <PropertyList model="FIELD">
                   <Model attr_obj="FIELD_ALPHA" id="1"/>
                   <Picture id="157" valUnicode="20"/>
@@ -3093,7 +3092,7 @@
                   <_Flip id="194"/>
                 </PropertyList>
               </Column>
-              <Column id="6" name="uDepID">
+              <Column id="6" name="viewDepID">
                 <PropertyList model="FIELD">
                   <Model attr_obj="FIELD_NUMERIC" id="1"/>
                   <Picture id="157" valUnicode="5"/>
@@ -3103,7 +3102,7 @@
                   <_FieldStyle id="276" val="1"/>
                 </PropertyList>
               </Column>
-              <Column id="7" name="uLocID">
+              <Column id="7" name="viewLocID">
                 <PropertyList model="FIELD">
                   <Model attr_obj="FIELD_NUMERIC" id="1"/>
                   <Picture id="157" valUnicode="5"/>
@@ -3113,7 +3112,7 @@
                   <_FieldStyle id="276" val="1"/>
                 </PropertyList>
               </Column>
-              <Column id="8" name="uDesID">
+              <Column id="8" name="viewDesID">
                 <PropertyList model="FIELD">
                   <Model attr_obj="FIELD_NUMERIC" id="1"/>
                   <Picture id="157" valUnicode="5"/>
@@ -3926,7 +3925,7 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="736731" _time="66579" date="06/02/2018" time="18:29:39"/>
+            <LastModified _date="736737" _time="41356" date="12/02/2018" time="11:29:16"/>
           </Header>
           <ItemIsn val="20"/>
           <Resource>
@@ -3939,7 +3938,7 @@
               <IdentifyRowModifications val="84"/>
             </DB>
             <Columns>
-              <Column id="1" name="id">
+              <Column id="1" name="inId">
                 <PropertyList model="FIELD">
                   <Model attr_obj="FIELD_NUMERIC" id="1"/>
                   <Picture id="157" valUnicode="5"/>
@@ -3949,7 +3948,7 @@
                   <_FieldStyle id="276" val="1"/>
                 </PropertyList>
               </Column>
-              <Column id="2" name="fname">
+              <Column id="2" name="inFname">
                 <PropertyList model="FIELD">
                   <Model attr_obj="FIELD_ALPHA" id="1"/>
                   <Picture id="157" valUnicode="50"/>
@@ -3958,7 +3957,7 @@
                   <_Flip id="194"/>
                 </PropertyList>
               </Column>
-              <Column id="3" name="lname">
+              <Column id="3" name="inLname">
                 <PropertyList model="FIELD">
                   <Model attr_obj="FIELD_ALPHA" id="1"/>
                   <Picture id="157" valUnicode="50"/>
@@ -3967,7 +3966,7 @@
                   <_Flip id="194"/>
                 </PropertyList>
               </Column>
-              <Column id="4" name="phone">
+              <Column id="4" name="inPhone">
                 <PropertyList model="FIELD">
                   <Model attr_obj="FIELD_ALPHA" id="1"/>
                   <Picture id="157" valUnicode="20"/>
@@ -3976,7 +3975,7 @@
                   <_Flip id="194"/>
                 </PropertyList>
               </Column>
-              <Column id="5" name="email">
+              <Column id="5" name="inEmail">
                 <PropertyList model="FIELD">
                   <Model attr_obj="FIELD_ALPHA" id="1"/>
                   <Picture id="157" valUnicode="20"/>
@@ -3985,7 +3984,7 @@
                   <_Flip id="194"/>
                 </PropertyList>
               </Column>
-              <Column id="6" name="did">
+              <Column id="6" name="inDid">
                 <PropertyList model="FIELD">
                   <Model attr_obj="FIELD_NUMERIC" id="1"/>
                   <Picture id="157" valUnicode="5"/>
@@ -3995,7 +3994,7 @@
                   <_FieldStyle id="276" val="1"/>
                 </PropertyList>
               </Column>
-              <Column id="7" name="lid">
+              <Column id="7" name="inLid">
                 <PropertyList model="FIELD">
                   <Model attr_obj="FIELD_NUMERIC" id="1"/>
                   <Picture id="157" valUnicode="5"/>
@@ -4005,7 +4004,7 @@
                   <_FieldStyle id="276" val="1"/>
                 </PropertyList>
               </Column>
-              <Column id="8" name="dsid">
+              <Column id="8" name="inDsid">
                 <PropertyList model="FIELD">
                   <Model attr_obj="FIELD_NUMERIC" id="1"/>
                   <Picture id="157" valUnicode="5"/>
@@ -4442,7 +4441,7 @@
             <External val="N"/>
             <FormType val="N"/>
             <DotNetObjectExists val="N"/>
-            <LastModified _date="736731" _time="66585" date="06/02/2018" time="18:29:45"/>
+            <LastModified _date="736737" _time="41388" date="12/02/2018" time="11:29:48"/>
           </Header>
           <ItemIsn val="1"/>
           <Resource>
@@ -4594,7 +4593,7 @@
           </TaskForms>
           <Expressions>
             <Expression id="2">
-              <ExpSyntax val="Str({0,1},'5')"/>
+              <ExpSyntax val="'YRH1.2: Delete' &amp; Str({0,1},'5')"/>
               <ExpAttribute val="A"/>
             </Expression>
             <Expression id="3">

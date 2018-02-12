@@ -1,31 +1,34 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<Application>
+ <Application>
+ 
+<Header>
 
-  <Header>
-    <Version val="13021"/>
-    <WithIsn val="Y"/>
-    <Exe comp="-1"/>
-    <LastIsn val="16"/>
-    <LastIsnFolder val="0"/>
-    <Folders/>
-  </Header>
+  <Version val="13021"/>
 
-  <DataSourceRepository>
-    <DataObjects>
-      <DataObject PhysicalName="User" Resident="N" UniqueISNConvState="12" data_source="XPARepo" id="4" length="6338" name="User" offset="228"/>
-      <DataObject PhysicalName="Department" Resident="N" UniqueISNConvState="12" data_source="XPARepo" id="5" length="2261" name="Department" offset="6567"/>
-      <DataObject PhysicalName="Level" Resident="N" UniqueISNConvState="12" data_source="XPARepo" id="6" length="2849" name="Level" offset="8829"/>
-      <DataObject PhysicalName="Designation" Resident="N" UniqueISNConvState="12" data_source="XPARepo" id="7" length="2815" name="Designation" offset="11679"/>
-      <DataObject PhysicalName="Device" Resident="N" UniqueISNConvState="12" data_source="XPARepo" id="8" length="3534" name="Device" offset="14495"/>
-      <DataObject PhysicalName="Group" Resident="N" UniqueISNConvState="12" data_source="XPARepo" id="9" length="2285" name="Group" offset="18030"/>
-      <DataObject PhysicalName="Configuration" Resident="N" UniqueISNConvState="12" data_source="XPARepo" id="10" length="2302" name="Configuration" offset="20316"/>
-      <DataObject PhysicalName="Policy" Resident="N" UniqueISNConvState="12" data_source="XPARepo" id="11" length="2288" name="Policy" offset="22619"/>
-      <DataObject PhysicalName="Location" Resident="N" UniqueISNConvState="12" data_source="XPARepo" id="14" length="2954" name="Location" offset="24908"/>
-      <DataObject PhysicalName="State" Resident="N" UniqueISNConvState="12" data_source="XPARepo" id="15" length="2463" name="State" offset="27863"/>
-      <DataObject PhysicalName="Country" Resident="N" UniqueISNConvState="12" data_source="XPARepo" id="16" length="1803" name="Country" offset="30327"/>
-    </DataObjects>
-  </DataSourceRepository>
+  <WithIsn val="Y"/>
 
-  <LastModified val="3064727899280161"/>
+  <Exe comp="-1"/>
 
-</Application>
+  <LastIsn val="16"/>
+
+  <LastIsnFolder val="0"/>
+
+  <Folders/>
+
+</Header>
+ <DataSourceRepository>
+  <DataObjects>
+ 
+ 
+<DataObject PhysicalName="User" Resident="N" UniqueISNConvState="12" data_source="XPARepo" id="4" name="User" offset="211" length="6338"/> 
+<DataObject PhysicalName="Department" Resident="N" UniqueISNConvState="12" data_source="XPARepo" id="5" name="Department" offset="6550" length="2261"/> 
+<DataObject PhysicalName="Level" Resident="N" UniqueISNConvState="12" data_source="XPARepo" id="6" name="Level" offset="8812" length="2784"/> 
+<DataObject PhysicalName="Designation" Resident="N" UniqueISNConvState="12" data_source="XPARepo" id="7" name="Designation" offset="11597" length="2815"/> 
+<DataObject PhysicalName="Device" Resident="N" UniqueISNConvState="12" data_source="XPARepo" id="8" name="Device" offset="14413" length="3534"/> 
+<DataObject PhysicalName="Group" Resident="N" UniqueISNConvState="12" data_source="XPARepo" id="9" name="Group" offset="17948" length="2285"/> 
+<DataObject PhysicalName="Configuration" Resident="N" UniqueISNConvState="12" data_source="XPARepo" id="10" name="Configuration" offset="20234" length="2302"/> 
+<DataObject PhysicalName="Policy" Resident="N" UniqueISNConvState="12" data_source="XPARepo" id="11" name="Policy" offset="22537" length="2288"/> 
+<DataObject PhysicalName="Location" Resident="N" UniqueISNConvState="12" data_source="XPARepo" id="14" name="Location" offset="24826" length="2954"/> 
+<DataObject PhysicalName="State" Resident="N" UniqueISNConvState="12" data_source="XPARepo" id="15" name="State" offset="27781" length="2463"/> 
+<DataObject PhysicalName="Country" Resident="N" UniqueISNConvState="12" data_source="XPARepo" id="16" name="Country" offset="30245" length="1803"/>  </DataObjects>
+ </DataSourceRepository>
+ <LastModified val="3064729176837917"/>  </Application>

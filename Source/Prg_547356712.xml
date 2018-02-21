@@ -13,7 +13,7 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header ISEMPTY_TSK="1" ISN_2="1" LastIsn="1" id="547356712">
+        <Header Description="TestGitProgram" ISN_2="1" LastIsn="1" id="547356712">
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -27,16 +27,26 @@
           <Offline val="N"/>
           <FormType val="N"/>
           <DotNetObjectExists val="N"/>
-          <LastModified date="00/00/0000" time="00:00:00"/>
+          <LastModified _date="736746" _time="39875" date="21/02/2018" time="11:04:35"/>
         </Header>
+        <ItemIsn val="3"/>
         <Resource>
+          <DB id="547356673">
+            <DataObject comp="-1" obj="14"/>
+            <Access val="W"/>
+            <Share val="W"/>
+            <Open val="N"/>
+            <Cache val="Y"/>
+            <IdentifyRowModifications val="84"/>
+          </DB>
           <Columns/>
         </Resource>
         <Information>
           <Key>
+            <Column val="3"/>
             <Mode val="N"/>
           </Key>
-          <DB/>
+          <DB comp="-1" obj="14"/>
           <Sort>
             <CLS val="A"/>
           </Sort>
@@ -103,21 +113,88 @@
             </Event>
             <LogicLines>
               <LogicLine>
-                <DATAVIEW_SRC FlowIsn="547356673" Type="M">
+                <DATAVIEW_SRC FlowIsn="547356673" IDX="547356673" Type="M">
                   <Condition val="N"/>
                   <Modifier val="B"/>
                   <Direction val="C"/>
                 </DATAVIEW_SRC>
               </LogicLine>
+              <LogicLine>
+                <Select FieldID="547356673" FlowIsn="547356675" id="547356673">
+                  <Column val="1"/>
+                  <Type val="R"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="547356674" FlowIsn="547356676" id="547356674">
+                  <Column val="2"/>
+                  <Type val="R"/>
+                  <IsParameter val="N"/>
+                  <_DitIndexForToolkit val="2"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="547356675" FlowIsn="547356677" id="547356675">
+                  <Column val="3"/>
+                  <Type val="R"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
             </LogicLines>
+          </LogicUnit>
+          <LogicUnit id="547356675" propagate="78">
+            <Level val="K"/>
+            <Scope val="S"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="S"/>
+              <PublicObject comp="-1"/>
+            </Event>
+            <TXT val="Checked in from branch1"/>
           </LogicUnit>
         </TaskLogic>
         <TaskForms>
-          <FormEntry id="1">
+          <FormEntry _last_isn="2" _last_test_id="2" id="1">
             <PropertyList model="FORM_GUI0">
               <_Comment id="218"/>
-              <FormName id="311"/>
+              <FormName id="311" valUnicode="TestGitProgram"/>
             </PropertyList>
+            <Control _test_id="1" id="547356673">
+              <PropertyList model="CTRL_GUI0_STATIC">
+                <Text id="19" valUnicode="Branch1"/>
+                <X id="21" val="38"/>
+                <Y id="22" val="14"/>
+                <Width id="23" val="58"/>
+                <Height id="24" val="23"/>
+                <EnableRTF id="69"/>
+              </PropertyList>
+            </Control>
+            <Control _test_id="2" id="547356674">
+              <PropertyList model="CTRL_GUI0_PUSH_BUTTON">
+                <X id="21" val="128"/>
+                <Y id="22" val="14"/>
+                <Width id="23" val="33"/>
+                <Height id="24" val="14"/>
+                <Data FieldID="547356674" id="43"/>
+                <ControlName id="46" val="LocaName"/>
+                <TabOrder id="314" val="1"/>
+              </PropertyList>
+            </Control>
           </FormEntry>
         </TaskForms>
       </Task>
